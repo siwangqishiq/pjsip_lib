@@ -1,0 +1,566 @@
+output/pjsip-ua-i686-pc-linux-android/sip_inv.o: ../src/pjsip-ua/sip_inv.c ../include/pjsip-ua/sip_inv.h \
+  ../include/pjsip/sip_dialog.h ../include/pjsip/sip_msg.h \
+  ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+  ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+  ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/__config \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+  ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+  ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+  ../../pjlib/include/pj/compat/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+  ../include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h \
+  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/ioqueue.h \
+  ../../pjlib/include/pj/timer.h ../../pjlib/include/pj/lock.h \
+  ../include/pjsip/sip_util.h ../../pjlib/include/pj/assert.h \
+  ../../pjlib/include/pj/compat/assert.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
+  ../../pjmedia/include/pjmedia/sdp_neg.h \
+  ../../pjmedia/include/pjmedia/sdp.h \
+  ../../pjmedia/include/pjmedia/types.h \
+  ../../pjmedia/include/pjmedia/config.h \
+  ../../pjmedia/include/pjmedia/config_auto.h \
+  ../include/pjsip-ua/sip_100rel.h ../include/pjsip-ua/sip_timer.h \
+  ../include/pjsip/sip_module.h ../include/pjsip/sip_endpoint.h \
+  ../include/pjsip/sip_event.h ../include/pjsip/sip_multipart.h \
+  ../include/pjsip/sip_transaction.h \
+  ../../pjmedia/include/pjmedia/errno.h ../../pjlib/include/pj/array.h \
+  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types_32.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/float.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h \
+  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/os.h \
+  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/rand.h
+output/pjsip-ua-i686-pc-linux-android/sip_reg.o: ../src/pjsip-ua/sip_reg.c ../include/pjsip-ua/sip_regc.h \
+  ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+  ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+  ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/__config \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_auth.h \
+  ../include/pjsip/sip_auth_msg.h ../include/pjsip/sip_msg.h \
+  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+  ../include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h \
+  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/ioqueue.h \
+  ../../pjlib/include/pj/timer.h ../../pjlib/include/pj/lock.h \
+  ../include/pjsip/sip_endpoint.h ../include/pjsip/sip_module.h \
+  ../include/pjsip/sip_transaction.h ../include/pjsip/sip_util.h \
+  ../include/pjsip/sip_event.h ../include/pjsip/sip_errno.h \
+  ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
+  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/os.h \
+  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/log.h \
+  ../../pjlib/include/pj/rand.h ../../pjlib/include/pj/string.h \
+  ../../pjlib/include/pj/compat/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types_32.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/float.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h
+output/pjsip-ua-i686-pc-linux-android/sip_replaces.o: ../src/pjsip-ua/sip_replaces.c \
+  ../include/pjsip-ua/sip_replaces.h ../include/pjsip/sip_msg.h \
+  ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+  ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+  ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/__config \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+  ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../include/pjsip-ua/sip_inv.h ../include/pjsip/sip_dialog.h \
+  ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+  ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+  ../../pjlib/include/pj/compat/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+  ../include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h \
+  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/ioqueue.h \
+  ../../pjlib/include/pj/timer.h ../../pjlib/include/pj/lock.h \
+  ../include/pjsip/sip_util.h ../../pjlib/include/pj/assert.h \
+  ../../pjlib/include/pj/compat/assert.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
+  ../../pjmedia/include/pjmedia/sdp_neg.h \
+  ../../pjmedia/include/pjmedia/sdp.h \
+  ../../pjmedia/include/pjmedia/types.h \
+  ../../pjmedia/include/pjmedia/config.h \
+  ../../pjmedia/include/pjmedia/config_auto.h \
+  ../include/pjsip/print_util.h ../include/pjsip/sip_endpoint.h \
+  ../include/pjsip/sip_ua_layer.h ../../pjlib/include/pj/log.h \
+  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/string.h \
+  ../../pjlib/include/pj/compat/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types_32.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/float.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h
+output/pjsip-ua-i686-pc-linux-android/sip_xfer.o: ../src/pjsip-ua/sip_xfer.c ../include/pjsip-ua/sip_xfer.h \
+  ../include/pjsip-simple/evsub.h ../include/pjsip-simple/types.h \
+  ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+  ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+  ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/__config \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_msg.h \
+  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../include/pjsip-simple/evsub_msg.h ../include/pjsip/sip_dialog.h \
+  ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+  ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+  ../../pjlib/include/pj/compat/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+  ../include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h \
+  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/ioqueue.h \
+  ../../pjlib/include/pj/timer.h ../../pjlib/include/pj/lock.h \
+  ../include/pjsip/sip_util.h ../../pjlib/include/pj/assert.h \
+  ../../pjlib/include/pj/compat/assert.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
+  ../include/pjsip/sip_endpoint.h ../include/pjsip/sip_module.h \
+  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/string.h \
+  ../../pjlib/include/pj/compat/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types_32.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/float.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h
+output/pjsip-ua-i686-pc-linux-android/sip_100rel.o: ../src/pjsip-ua/sip_100rel.c \
+  ../include/pjsip-ua/sip_100rel.h ../include/pjsip-ua/sip_inv.h \
+  ../include/pjsip/sip_dialog.h ../include/pjsip/sip_msg.h \
+  ../include/pjsip/sip_types.h ../include/pjsip/sip_config.h \
+  ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+  ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/__config \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+  ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+  ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+  ../../pjlib/include/pj/compat/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+  ../include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h \
+  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/ioqueue.h \
+  ../../pjlib/include/pj/timer.h ../../pjlib/include/pj/lock.h \
+  ../include/pjsip/sip_util.h ../../pjlib/include/pj/assert.h \
+  ../../pjlib/include/pj/compat/assert.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
+  ../../pjmedia/include/pjmedia/sdp_neg.h \
+  ../../pjmedia/include/pjmedia/sdp.h \
+  ../../pjmedia/include/pjmedia/types.h \
+  ../../pjmedia/include/pjmedia/config.h \
+  ../../pjmedia/include/pjmedia/config_auto.h \
+  ../include/pjsip/sip_endpoint.h ../include/pjsip/sip_event.h \
+  ../include/pjsip/sip_module.h ../include/pjsip/sip_transaction.h \
+  ../../pjlib/include/pj/ctype.h ../../pjlib/include/pj/compat/ctype.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/ctype.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/ctype.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
+  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/os.h \
+  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/rand.h \
+  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types_32.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/float.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h
+output/pjsip-ua-i686-pc-linux-android/sip_timer.o: ../src/pjsip-ua/sip_timer.c ../include/pjsip-ua/sip_timer.h \
+  ../include/pjsip-ua/sip_inv.h ../include/pjsip/sip_dialog.h \
+  ../include/pjsip/sip_msg.h ../include/pjsip/sip_types.h \
+  ../include/pjsip/sip_config.h ../../pjlib/include/pj/types.h \
+  ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../pjlib/include/pj/compat/os_auto.h \
+  ../../pjlib/include/pj/compat/m_auto.h \
+  ../../pjlib/include/pj/compat/size_t.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/__config \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  ../../pjlib/include/pj/config_site.h \
+  ../../pjlib/include/pj/config_site_sample.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
+  ../../pjlib/include/pj/list.h \
+  ../../pjlib-util/include/pjlib-util/scanner.h \
+  ../../pjlib-util/include/pjlib-util/types.h \
+  ../../pjlib-util/include/pjlib-util/config.h \
+  ../../pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+  ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+  ../../pjlib/include/pj/compat/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  ../include/pjsip/sip_transport.h ../include/pjsip/sip_parser.h \
+  ../include/pjsip/sip_resolve.h \
+  ../../pjlib-util/include/pjlib-util/resolver.h \
+  ../../pjlib-util/include/pjlib-util/dns.h \
+  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/ioqueue.h \
+  ../../pjlib/include/pj/timer.h ../../pjlib/include/pj/lock.h \
+  ../include/pjsip/sip_util.h ../../pjlib/include/pj/assert.h \
+  ../../pjlib/include/pj/compat/assert.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
+  ../../pjmedia/include/pjmedia/sdp_neg.h \
+  ../../pjmedia/include/pjmedia/sdp.h \
+  ../../pjmedia/include/pjmedia/types.h \
+  ../../pjmedia/include/pjmedia/config.h \
+  ../../pjmedia/include/pjmedia/config_auto.h \
+  ../include/pjsip/print_util.h ../include/pjsip/sip_endpoint.h \
+  ../include/pjsip/sip_event.h ../include/pjsip/sip_transaction.h \
+  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/math.h \
+  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/posix_types_32.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/i686-linux-android/asm/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/sources/cxx-stl/llvm-libc++/include/float.h \
+  /mnt/d/ndk/linux/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h \
+  ../../pjlib/include/pj/compat/high_precision.h \
+  ../../pjlib/include/pj/os.h ../../pjlib/include/pj/pool.h
